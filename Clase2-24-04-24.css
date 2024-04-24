@@ -1,0 +1,17 @@
+
+
+.btn-formulario{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+button.btn-formulario{
+
+}
+
+button{}
+
+#especificidad .btn-formulario button{
+}
+
