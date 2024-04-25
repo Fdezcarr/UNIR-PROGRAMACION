@@ -1,0 +1,31 @@
+
+
+.btn-formulario{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.btn-formulario:hover{
+    background-color: blueviolet;
+
+}
+
+.titulo-principal{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+button.btn-formulario{
+
+}
+
+button{}
+
+#especificidad .btn-formulario button{
+}
+
+
+
+
