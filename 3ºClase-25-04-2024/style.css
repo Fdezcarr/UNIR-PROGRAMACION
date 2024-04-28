@@ -1,0 +1,58 @@
+/* 
+
+Animaciones
+
+Modelo de caja (visto)
+
+Normalize / reset (visto)
+
+flexbox / grid
+
+posicionamiento ( absolute)
+
+wrapper
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+/* Modelo de caja (visto)  */
+.caja {
+  width: 500px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px 30px;
+  margin: 10px;
+}
+/* posicionamiento ( absolute)  */
+.hero-image {
+  width: 500px;
+  position: relative;
+}
+
+.hero-image__text {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: rgba(30, 30, 30, 30);
+  border-radius: 16px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.Elemento-bloque {
+  display: inline;
+}
+
+.Elemento-linea {
+  display: block;
+}
