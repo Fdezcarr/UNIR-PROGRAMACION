@@ -5,6 +5,7 @@
 }
 
 body {
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
@@ -55,10 +56,16 @@ body {
   }
 }
 
-.navegacion-lista__enlace {
+.navegacion-lista a {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+.navegacion-lista__enlace {
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 5px;
 }
 
 /* Contenido de la web  */
@@ -69,15 +76,34 @@ body {
   margin: 30px auto;
 }
 
-.card {
+.card_text {
   padding: 20px;
-  background-color: red;
-  color: white;
+  border: 1px solid grey;
+  color: black;
   max-width: 54%;
+}
+
+.span-card {
+  color: red;
 }
 
 .card-img img {
   max-width: 100%;
+}
+
+.card_price {
+  font-size: 25px;
+  margin-right: 8px;
+}
+
+.card_price-button {
+  padding: 12px;
+  background: #2196f3;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid grey;
+  border-radius: 7px;
 }
 
 .label {
